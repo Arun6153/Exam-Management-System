@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: hidden;
+}
+.topnav {
+  overflow: hidden;
+  background-color:black;
+}
+
+.topnav a {
+  float: right;
+  margin-top: 8px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.5s;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  transition: 0.5s;
+  color: black;
+  transform: scale(0.8);
+}
+img{
+	height: 60px;
+	margin-left: 5%;
+	transition: 0.5s;
+}
+img:hover{
+	transition: 0.5s;
+	transform: scale(0.8) rotate(360deg);
+}
+footer{
+	position: absolute;
+	margin-top: 85vh;
+	height: 4vh;
+	padding: 4px 100px;
+	width: 100%;
+	background-color: black;
+}
+footer div{
+	color: white;
+}
+footer div h4{
+	position: relative;
+	margin-left: 35%;
+}
+.box-body{
+	position: absolute;
+	width: 75.5%;
+	height: 80%;
+	margin: 1% 5% 5% 12.5%;
+	background-color:#e6e9ef;
+	display: block;
+	box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.6);
+	display:flex;
+	padding:5px;
+}
+.block{
+	text-align: center;
+	padding:5px;
+	height:100%;
+	transition: 0.5s;
+}
+h3 a{
+	color:inherit;
+	text-decoration: none;
+}
+.small-box1{
+	
+	height: 40%;
+	width: 200px;
+	background-color:#d1d1d1;
+	line-height: 50px;
+	box-shadow: 20px rgba(0,0,0,0.5);
+}
+.small-box2{
+	
+	height: 40%;
+	width: 200px;
+	background-color: #d1d1d1;
+	line-height: 50px;
+	box-shadow: 20px rgba(0,0,0,0.5);
+    margin-left: 5px;
+}
+.block p{
+	width:10vw;
+	line-height:3vh;
+	margin-left: 14%;
+	text-align: center;
+	font-size: 15px;
+}
+.small-box3{
+	
+	height: 40%;
+	width: 200px;
+	background-color: #d1d1d1;
+	line-height: 50px;
+	box-shadow: 20px rgba(0,0,0,0.5);
+    margin-left: 5px;
+}
+.small-box4{
+	
+	height: 40%;
+	width: 200px;
+	background-color:#d1d1d1;
+	line-height: 50px;
+	box-shadow: 20px rgba(0,0,0,0.5);
+    margin-left: 5px;
+}
+.small-box5{
+	
+	height: 40%;
+	width: 200px;
+	background-color:#d1d1d1;
+	line-height: 50px;
+	box-shadow: 20px rgba(0,0,0,0.5);
+    margin-left: 5px;	
+}
+.block:hover{
+	transition: 0.5s;
+	transform: scale(1.1);
+	box-shadow: 10px 10px 30px 10px rgba(0,0,0,.5);
+	color:#ce2323;
+	border-bottom:solid ;
+	border-color: #ce2323;
+}
+.small-box1 .small-box2 .small-box3 .small-box4 .small-box5:hover{
+background-color:linear-gradient(to bottom,#403A3E,#BE5869);
+}
